@@ -1,5 +1,7 @@
-# (D)QBF Autarkies and results
-
+## Autarkies
+Autarkies for SAT are partial assignments for boolean CNF, which either satisfy a clause or leave it untouched.
+ 
+## DQCNF 
 A DQCNF is a 4-tuple (A, E, F, D), where
  - A is the set of universal variables,
  - E is the set of existential variables, with A &#8745; E = &empty;,
