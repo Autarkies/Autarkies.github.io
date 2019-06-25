@@ -21,8 +21,20 @@ while E<sub>1</sub> only uses one existential variable.
 
 ##  A<sub>1</sub>: Translations of the autarky-problem via compilation
 
-Basic Idea: restrict to some "interesting” selection **s(v)** &sube; BF<sup> D<sup> v</sup> </sup>, the selected (boolean) functions, and treat the elements of s(v) as the possible values of v. For each C &isin; F , compile all possibilities for admissible partial satisfying
-assignments for C into some CNF-representation **P(C)**, admissible partial assignment.
+Basic Idea: 
+ -  Selected (boolean) functions: restrict to some "interesting” selection **s(v)** &sube; BF<sup> D<sup> v</sup> </sup>, and treat the elements of s(v) as the possible values of v. 
+ - Admissible partial assignment: For each C &isin; F , compile all possibilities for admissible partial satisfying
+assignments for C into some CNF-representation **P(C)**.
+
+
+```markdown 
+The complete translation
+
+The translation t chooses for each v &isin; E and f &isin; s(v) a distinct new bf-variable t(v,f) &isin; VA
+
+t(v, f) ∨ t(v, f').
+
+```
 
 ```markdown
 Consider the DQCNF 
