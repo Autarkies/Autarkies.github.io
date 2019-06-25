@@ -1,36 +1,29 @@
-## Welcome to GitHub Pages
+## Autarkies for SAT
 
-You can use the [editor on GitHub](https://github.com/Autarkies/Autarkies.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Autarkies for SAT are partial assignments for boolean CNF, which either satisfy a clause or leave it untouched.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### A- and E-systems
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Consider a DQCNF F and k ≥ 0:
+1. An A k -autarky for F is an autarky such that all boolean functions assigned
+depend essentially on at most k variables.
+2. An E k -autarky is an autarky assigns at most k (existential) variables.
 
 ```markdown
-Syntax highlighted code block
+Consider the DQCNF 
+F := ({3, 4}, {1, 2}, {{−1, 2}, {2, −3, −4}}, {(1, {3}), (2, {3, 4})}).
 
-# Header 1
-## Header 2
-### Header 3
+A DQDIMACS code is:
+p cnf 4 2
+a 3 4 0
+e 2 0
+d 1 3 0
+-1 2 0
+2 -3 -4 0
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Autarkies/Autarkies.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
