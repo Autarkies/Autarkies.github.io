@@ -1,13 +1,19 @@
-## Autarkies for SAT
+# (D)QBF Autarkies and results
 
-Autarkies for SAT are partial assignments for boolean CNF, which either satisfy a clause or leave it untouched.
+A DQCNF is a 4-tuple (A, E, F, D), where
+ - A is the set of universal variables,
+ - E is the set of existential variables, with A &#8745; E = &empty;,
+ - F is a clause-set over A &cup; E (i.e., var(F) &sube; A &cup; E),
+  - D is the dependency-map with dom(D) = E, mapping v &isin; E  &rarr; D(v) &sube; A, the variables on which v depends.
 
-### A- and E-systems
+## A- and E-systems
 
 Consider a DQCNF F and k ≥ 0:
 1. An A k -autarky for F is an autarky such that all boolean functions assigned
 depend essentially on at most k variables.
 2. An E k -autarky is an autarky assigns at most k (existential) variables.
+
+We consider three 
 
 ```markdown
 Consider the DQCNF 
