@@ -15,7 +15,14 @@ Consider a DQCNF F and k ≥ 0:
 depend essentially on at most k variables.
 2. An E k -autarky is an autarky assigns at most k (existential) variables.
 
-We consider three 
+We consider three basic Autarky systems:
+A_0 and A_1 allow the boolean functions to essentially depend on 0 resp. 1 universal variable
+while E_1 only uses one existential variable.
+
+## A_1: Translations of the autarky-problem via compilation
+
+Basic Idea: restrict to some "interesting” selection **s(v)** &sube; BF<sup> D<sup> v, the selected (boolean) functions, and treat the elements of s(v) as the possible values of v. For each C &isin; F , compile all possibilities for admissible partial satisfying
+assignments for C into some CNF-representation **P(C)**, admissible partial assignment.
 
 ```markdown
 Consider the DQCNF 
