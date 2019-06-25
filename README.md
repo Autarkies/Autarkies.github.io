@@ -11,17 +11,17 @@ A DQCNF is a 4-tuple (A, E, F, D), where
 ## A- and E-systems
 
 Consider a DQCNF F and k ≥ 0:
-1. An A k -autarky for F is an autarky such that all boolean functions assigned
+1. An A<sub>k</sub> -autarky for F is an autarky such that all boolean functions assigned
 depend essentially on at most k variables.
-2. An E k -autarky is an autarky assigns at most k (existential) variables.
+2. An E<sub>k</sub> -autarky is an autarky assigns at most k (existential) variables.
 
 We consider three basic Autarky systems:
-A_0 and A_1 allow the boolean functions to essentially depend on 0 resp. 1 universal variable
-while E_1 only uses one existential variable.
+A<sub>0</sub> and A<sub>1</sub> allow the boolean functions to essentially depend on 0 resp. 1 universal variable
+while E<sub>1</sub> only uses one existential variable.
 
-## A_1: Translations of the autarky-problem via compilation
+##  A<sub>1</sub>: Translations of the autarky-problem via compilation
 
-Basic Idea: restrict to some "interesting” selection **s(v)** &sube; BF<sup> D<sup> v, the selected (boolean) functions, and treat the elements of s(v) as the possible values of v. For each C &isin; F , compile all possibilities for admissible partial satisfying
+Basic Idea: restrict to some "interesting” selection **s(v)** &sube; BF<sup> D<sup> v</sup> </sup>, the selected (boolean) functions, and treat the elements of s(v) as the possible values of v. For each C &isin; F , compile all possibilities for admissible partial satisfying
 assignments for C into some CNF-representation **P(C)**, admissible partial assignment.
 
 ```markdown
