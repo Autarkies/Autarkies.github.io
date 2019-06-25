@@ -11,7 +11,7 @@ depend essentially on at most k variables.
 
 ```markdown
 Consider the DQCNF 
-F := ({3, 4}, {1, 2}, {{−1, 2}, {2, −3, −4}}, {(1, {3}), (2, {3, 4})}).
+F := ({3,4}, {1,2})
 
 A DQDIMACS code is:
 p cnf 4 2
