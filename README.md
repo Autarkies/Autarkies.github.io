@@ -1,12 +1,5 @@
 ## Autarkies
 Autarkies for SAT are partial assignments for boolean CNF, which either satisfy a clause or leave it untouched.
- 
-## DQCNF 
-A DQCNF is a 4-tuple (A, E, F, D), where
- - A is the set of universal variables,
- - E is the set of existential variables, with A &#8745; E = &empty;,
- - F is a clause-set over A &cup; E (i.e., var(F) &sube; A &cup; E),
-  - D is the dependency-map with dom(D) = E, mapping v &isin; E  &rarr; D(v) &sube; A, the variables on which v depends.
 
 ## A- and E-systems
 
@@ -26,15 +19,31 @@ Basic Idea:
  - Admissible partial assignment: For each C &isin; F , compile all possibilities for admissible partial satisfying
 assignments for C into some CNF-representation **P(C)**.
 
-
-```markdown 
 The complete translation
 
-The translation t chooses for each v &isin; E and f &isin; s(v) a distinct new bf-variable t(v,f) &isin; VA
+1. The translation t chooses for each v &isin; E and f &isin; 
+s(v) a distinct new bf-variable t(v,f) &isin; VA
 
-t(v, f) ∨ t(v, f').
+&#8743; t(v, f) &#8744; t(v,f').
 
-```
+2. In order to make each P(C) a clause, we choose distinct
+   new pa-variables t(φ) &isin; VA, for φ &isin; C∈F S(C) ("true" iff φ is activated). 
+   
+ t(φ) &#8660;  &#8743; t(v, φ(v))
+
+3. We choose furthermore distinct new clause-selector-variables t(C) &isin; VA
+
+which yields for each C &isin; F the clauses
+
+t(C) &#8744; &#8744; t(φ)  (4.3)
+    φ∈S(C)
+
+&#8743; &#8743; t(C) &#8744; t(v,f) (4.4)
+
+4. The existence of a non-trivial autarky is now expressed either via the clause
+
+  &#8744; t(C)
+
 
 ```markdown
 Consider the DQCNF 
