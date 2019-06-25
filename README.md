@@ -19,32 +19,6 @@ Basic Idea:
  - Admissible partial assignment: For each C &isin; F , compile all possibilities for admissible partial satisfying
 assignments for C into some CNF-representation **P(C)**.
 
-The complete translation
-
-1. The translation t chooses for each v &isin; E and f &isin; 
-s(v) a distinct new bf-variable t(v,f) &isin; VA
-
-&#8743; t(v, f) &#8744; t(v,f').
-
-2. In order to make each P(C) a clause, we choose distinct
-   new pa-variables t(φ) &isin; VA, for φ &isin; C∈F S(C) ("true" iff φ is activated). 
-   
- t(φ) &#8660;  &#8743; t(v, φ(v))
-
-3. We choose furthermore distinct new clause-selector-variables t(C) &isin; VA
-
-which yields for each C &isin; F the clauses
-
-t(C) &#8744; &#8744; t(φ)  (4.3)
-    φ∈S(C)
-
-&#8743; &#8743; t(C) &#8744; t(v,f) (4.4)
-
-4. The existence of a non-trivial autarky is now expressed either via the clause
-
-  &#8744; t(C)
-
-
 ```markdown
 Consider the DQCNF 
 F := ({3,4}, {1,2})
