@@ -1,11 +1,34 @@
-# basic options
+# A Jekyll template based on Minima theme https://github.com/jekyll/minima
+
+# Notes: 
+# - fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
+# - pages with "nav: true" in front matter will be in header nav
+# - use environment variable on build command to include analytics: JEKYLL_ENV=production jekyll build
+
+# site settings
 title: Autarkies for (D)QBF
-author: Oliver Kullmann
-email: ankitk@ncbs.res.in
-description: Autarkies for SAT are partial assignments for boolean CNF, which either satisfy a clause or leave it untouched.
-twitter_username: jekyllrb
-github_username:  jekyll
+description: "Find Autarkies in the (D)QBF"
+keywords: "github, github-pages, websites, static gen, hosting, html, workshop, gh-pages"
+
+# author settings for cc-by
+author: O Kullman
+pub_year: 2019
+#github_username: OKullmann 
+
+# add the full url for the github repository
+repo: "https://github.com/Autarkies/Autarkies.github.io"
+
+# your gh-pages url: https://username.github.io
+url: https://autarkies.github.io
+# your repository name: /repository
+baseurl: /index
+
+# defaults (to simplify front matter)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 # Build settings
 markdown: kramdown
-theme: minima
