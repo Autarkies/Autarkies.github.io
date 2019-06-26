@@ -21,7 +21,7 @@ repo: "https://github.com/Autarkies/Autarkies.github.io"
 # your gh-pages url: https://username.github.io
 url: https://autarkies.github.io
 # your repository name: /repository
-baseurl: /Autarkies
+baseurl: /autarkies
 
 # defaults (to simplify front matter)
 defaults:
