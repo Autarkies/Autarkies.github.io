@@ -35,6 +35,27 @@ d 1 3 0
 [Link](url) and ![Image](src)
 ```
 
+```markdown
+
+With improved SAT-encodings and running standard SAT-solvers, we where
+able to compute the normalforms quite easily for all over 334 instances in the
+DQBF track of [QBFEVAL’18](http://www.qbflib.org/qbfeval18.php).
+
+Results:
+
+We found 4 instances showed that have Autarkies:
+
+1. SAT instances 
+  - bloem_eq1.dqdimacs
+  - tentrup17_ltl2dba_theta_environment_1.dqdimacs
+  
+  
+2. Non-Trivial Autarkies
+  - bloem_ex1.dqdimacs
+  - bloem_ex2.dqdimacs
+  
+```
+
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
