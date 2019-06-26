@@ -41,7 +41,7 @@ DQBF track of [QBFEVAL’18](http://www.qbflib.org/qbfeval18.php).
 ```markdown
 Results:
 
-We found 4 instances showed that have Autarkies:
+We found 4 instances that have Autarkies:
 
 1. SAT instances 
   - bloem_eq1.dqdimacs, 0.011s
