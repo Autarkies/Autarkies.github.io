@@ -44,13 +44,13 @@ Results:
 We found 4 instances showed that have Autarkies:
 
 1. SAT instances 
-  - bloem_eq1.dqdimacs
-  - tentrup17_ltl2dba_theta_environment_1.dqdimacs
+  - bloem_eq1.dqdimacs, 0.011s
+  - tentrup17_ltl2dba_theta_environment_1.dqdimacs, 0.239s
   
   
 2. Non-Trivial Autarkies
-  - bloem_ex1.dqdimacs
-  - bloem_ex2.dqdimacs
+  - bloem_ex1.dqdimacs, 0.031s
+  - bloem_ex2.dqdimacs, 0.143s
   
 ```
 
