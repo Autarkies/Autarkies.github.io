@@ -16,15 +16,12 @@ Consider a DQCNF F and k ≥ 0:
 
 We have considered three Autarky Systems A1, E1, A1 + E1.
 
-### Translations of the autarky-problem via compilation:
-   [Translation for A1]()
+### Translation of finding A1 via compilation:
 
-   Basic Idea:
+   1. `Selected (boolean) functions`: restrict to some "interesting” selection **s(v)** ⊆ BF D v , and treat the elements of s(v) as the possible values of v.
+   2. `Admissible partial assignment`: For each C ∈ F , compile all possibilities for admissible partial satisfying assignments for C into some CNF-representation **P(C)**.
 
-   1. Selected (boolean) functions: restrict to some "interesting” selection s(v) ⊆ BF D v , and treat the elements of s(v) as the possible values of v.
-   2. Admissible partial assignment: For each C ∈ F , compile all possibilities for admissible partial satisfying assignments for C into some CNF-representation P(C).
-
-```markdown 
+{% highlight ruby %}
   Consider the DQCNF 
   F := ({3,4}, {1,2})
 
@@ -37,6 +34,5 @@ We have considered three Autarky Systems A1, E1, A1 + E1.
   2 -3 -4 0
 
 [Link](url) and ![Image](src)
-```
-
+{% endhighlight %}
 
