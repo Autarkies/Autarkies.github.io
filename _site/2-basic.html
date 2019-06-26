@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>2-Basic | Autarkies for (D)QBF</title>
+  <meta name="description" content="Find Autarkies in the (D)QBF">
+  <meta name="keywords" content="github, github-pages, websites, static gen, hosting, html, workshop, gh-pages">
+  <meta name="author" content="O Kullman">
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/index/favicon.ico">
+
+  <meta property="og:title" content="2-Basic | Autarkies for (D)QBF" />
+  <meta property="og:description" content="Find Autarkies in the (D)QBF" />
+  <meta property="og:site_name" content="Autarkies for (D)QBF" />
+  <meta property="og:url" content="http://localhost:4000/index/2-basic.html" />
+  <meta property="og:locale" content="en_US" />
+  <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"2-Basic | Autarkies for (D)QBF","author":{"@type":"Person","name":"O Kullman"},"description":"Find Autarkies in the (D)QBF","url":"http://localhost:4000/index/2-basic.html"}</script>
+
+  <link rel="stylesheet" href="http://localhost:4000/index/css/main.css">
+  
+  <!-- Google Analytics -->
+
+</head>
+
+
+  <body>
+    
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="http://localhost:4000/index/">Autarkies for (D)QBF</a>
+
+    <nav class="site-nav">
+      <span class="menu-icon">
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </span>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="http://localhost:4000/index/0-prep.html">0-Prep</a>
+          
+        
+          
+          <a class="page-link" href="http://localhost:4000/index/1-intro.html">1-Intro</a>
+          
+        
+          
+          <a class="page-link active" href="http://localhost:4000/index/2-basic.html">2-Basic</a>
+          
+        
+          
+          <a class="page-link" href="http://localhost:4000/index/3-jekyll.html">3-Jekyll</a>
+          
+        
+          
+          <a class="page-link" href="http://localhost:4000/index/4-jekyll-advanced.html">4-Advanced</a>
+          
+        
+          
+        
+          
+          <a class="page-link" href="http://localhost:4000/index/5-reference.html">5-Ref</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <h1 id="github-pages-basics">GitHub Pages Basics</h1>
+
+<p>Any GitHub repository can have a site by activating gh-pages in the settings and selecting a source branch.
+Additionally, each user and <a href="https://evanwill.github.io/_drafts/notes/github-org.html" target="_blank">organization</a> can have one root site by creating a repository called <code class="highlighter-rouge">username.github.io</code> (replace username with your actual username!).
+The site will automatically appear in the github.io domain following this pattern:</p>
+
+<p><code class="highlighter-rouge">https://username.github.io/repositoryname/</code></p>
+
+<p>Let’s look at the basic ways to use it!</p>
+
+<h1 id="static-html">Static HTML</h1>
+
+<p>Any static web document can be served up from your repository. 
+If you add a <code class="highlighter-rouge">index.html</code> and activate gh-pages, you are ready to go!</p>
+
+<p>Demo:</p>
+
+<ol>
+  <li>Create a new repository:
+    <ul>
+      <li>Click the + sign in the upper right and select <em>New repository</em>.</li>
+      <li>Give the repository a nice name</li>
+      <li>Check the <em>Initialize this repository with a README</em> option</li>
+      <li>Click the green <em>Create repository</em> button.</li>
+    </ul>
+  </li>
+  <li>Create a new <code class="highlighter-rouge">index.html</code> file:
+    <ul>
+      <li>Click the <em>Create new file</em> button on the repository page.</li>
+      <li>Name the file <code class="highlighter-rouge">index.html</code>.</li>
+      <li>
+        <p>Write some HTML in the web editor! For example:</p>
+
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;h1&gt;</span>Hello World!<span class="nt">&lt;/h1&gt;</span>
+        <span class="nt">&lt;p&gt;</span>gh-pages rock!<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div>        </div>
+      </li>
+      <li>Scroll to the bottom, add a message, and click <em>Commit new file</em>. (You just used Git!)</li>
+    </ul>
+  </li>
+  <li>Activate gh-pages:
+    <ul>
+      <li>Click on the repository’s <em>Settings</em> tab.</li>
+      <li>Scroll down to the <em>GitHub Pages</em> options.</li>
+      <li>Click <em>Source</em>, select <em>Master branch</em>, and click <em>Save</em>.</li>
+      <li>Wait for a minute for gh-pages to build. The live link will appear in the options.</li>
+    </ul>
+  </li>
+</ol>
+
+<blockquote>
+  <p>All Markdown files in the repo will also be rendered to HTML using the default GitHub theme.
+If there is an <code class="highlighter-rouge">index.md</code> or <code class="highlighter-rouge">index.html</code> it will be served as the index page, otherwise <code class="highlighter-rouge">README.md</code> will be.</p>
+</blockquote>
+
+<h1 id="automatic-theme-chooser">Automatic Theme Chooser</h1>
+
+<p>The Theme Chooser is a fully automated option to create a stock page for a repository using a Jekyll theme. 
+It converts <a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a> files into site pages using the selected theme layout (Markdown basics are on the <a href="5-reference.html">Reference page</a>).
+This is a handy way to convert a README into a slightly more attractive project home page–in seconds!</p>
+
+<p>Demo:</p>
+
+<ol>
+  <li>Create a new repository:
+    <ul>
+      <li>Click the + sign in the upper right and select <em>New repository</em>.</li>
+      <li>Give the repository a nice name, check the <em>Initialize this repository with a README</em> option, and click the <em>Create</em> button.</li>
+    </ul>
+  </li>
+  <li>Edit the <code class="highlighter-rouge">README.md</code> file:
+    <ul>
+      <li>From the repository’s main page, click on the <code class="highlighter-rouge">README.md</code> name to open the file’s page.</li>
+      <li>Click on the <em>Edit</em> (pencil icon) button at the top right of the file content.</li>
+      <li>
+        <p>Edit the content in the web editor (<a href="https://evanwill.github.io/_drafts/notes/markdown-minute.html" target="_blank">markdown tips</a>). For example:</p>
+
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Hello World! 
+
+This is a great new site.
+p.s. gh-pages rock!
+</code></pre></div>        </div>
+      </li>
+      <li>Scroll to the bottom, add a message, and click <em>Commit changes</em>. (You just did a <code class="highlighter-rouge">git commit -m "..."</code>!)</li>
+    </ul>
+  </li>
+  <li>Activate gh-pages:
+    <ul>
+      <li>Click on the repository’s <em>Settings</em> tab.</li>
+      <li>Scroll down to the <em>GitHub Pages</em> options.</li>
+      <li>Click <em>Choose theme</em>.</li>
+      <li>Click on the theme thumbnails to get a preview, then click the <em>Select</em> button.</li>
+      <li>Wait for a minute for gh-pages to build. The live link will appear in the options.</li>
+      <li>A new file <code class="highlighter-rouge">_config.yml</code> will appear in your repo, this is a Jekyll file and is used to set the theme (you can ignore it when using Theme Chooser).</li>
+    </ul>
+  </li>
+  <li>Add an image:
+    <ul>
+      <li>From the repository’s main page, click <em>Upload files</em> button.</li>
+      <li>Drag &amp; drop a small image file, add a commit message, and click <em>Commit changes</em>.</li>
+      <li>Edit the <code class="highlighter-rouge">README.md</code> file, adding the image to the Markdown like: <code class="highlighter-rouge">![alt text](filename.jpg)</code>. Also add a link to an About page, like: <code class="highlighter-rouge">[About](about.md)</code>. Commit changes!</li>
+    </ul>
+  </li>
+  <li>Add an About page:
+    <ul>
+      <li>From the repository’s main page, click the <em>Create new file</em> button.</li>
+      <li>Name the file <code class="highlighter-rouge">about.md</code>.</li>
+      <li>
+        <p>At the top of the file add YAML Front Matter (a sign to Jekyll to process the file). Add some content and a link back to the README. For example:</p>
+
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+title: About
+---
+
+# About this project
+
+In a word: **Awesome!**
+
+See the [Home page](README.md)
+</code></pre></div>        </div>
+      </li>
+      <li>Commit the changes, wait for a minute for the site to rebuild.</li>
+    </ul>
+  </li>
+</ol>
+
+<blockquote>
+  <p>If you want to clean up after these tests, repositories can be deleted from the Settings tab.
+Scroll way down to the bottom <em>Danger Zone</em> and click <em>Delete this repository</em>.</p>
+
+  <p>Another incredibly quick way to share content and documentation is to use the built in wiki feature of a GitHub repository. 
+Just click the Wiki tab and start editing.</p>
+</blockquote>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+      <h2 class="footer-heading">
+         <a href="http://localhost:4000/index/">Autarkies for (D)QBF</a> - 
+         <a href="https://creativecommons.org/licenses/by-sa/4.0/">by</a> 
+         <a href="https://github.com/">O Kullman.</a>
+         2019
+      </h2> 
+  </div>
+</footer>
+
+
+  </body>
+
+</html>

@@ -1,0 +1,40 @@
+<p>Autarkies for SAT are partial assignments for boolean CNF, which either satisfy a clause or leave it untouched.</p>
+
+<h3 id="a--and-e-systems">A- and E-systems</h3>
+<p>Consider a DQCNF F and k ≥ 0:</p>
+<ol>
+  <li>An Ak -autarky for F is an autarky such that all boolean functions assigned depend essentially on at most k variables.</li>
+  <li>An Ek -autarky is an autarky assigns at most k (existential) variables.</li>
+</ol>
+
+<ul>
+  <li>
+    <p>A0 and A1 allow the boolean functions to essentially depend on 0 resp. 1 universal variable.</p>
+  </li>
+  <li>
+    <p>E1 only uses one existential variable.</p>
+  </li>
+</ul>
+
+<p>We have considered three Autarky Systems A1, E1, A1 + E1.</p>
+
+<h3 id="translation-of-finding-a1-via-compilation">Translation of finding A1 via compilation:</h3>
+
+<ol>
+  <li><code class="highlighter-rouge">Selected (boolean) functions</code>: restrict to some “interesting” selection <strong>s(v)</strong> ⊆ BF D v , and treat the elements of s(v) as the possible values of v.</li>
+  <li><code class="highlighter-rouge">Admissible partial assignment</code>: For each C ∈ F , compile all possibilities for admissible partial satisfying assignments for C into some CNF-representation <strong>P(C)</strong>.</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">  <span class="no">Consider</span> <span class="n">the</span> <span class="no">DQCNF</span> 
+  <span class="no">F</span> <span class="p">:</span><span class="o">=</span> <span class="p">({</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">},</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">})</span>
+
+  <span class="no">A</span> <span class="no">DQDIMACS</span> <span class="n">code</span> <span class="ss">is:
+  </span><span class="nb">p</span> <span class="n">cnf</span> <span class="mi">4</span> <span class="mi">2</span>
+  <span class="n">a</span> <span class="mi">3</span> <span class="mi">4</span> <span class="mi">0</span>
+  <span class="n">e</span> <span class="mi">2</span> <span class="mi">0</span>
+  <span class="n">d</span> <span class="mi">1</span> <span class="mi">3</span> <span class="mi">0</span>
+  <span class="o">-</span><span class="mi">1</span> <span class="mi">2</span> <span class="mi">0</span>
+  <span class="mi">2</span> <span class="o">-</span><span class="mi">3</span> <span class="o">-</span><span class="mi">4</span> <span class="mi">0</span>
+
+<span class="p">[</span><span class="no">Link</span><span class="p">](</span><span class="n">url</span><span class="p">)</span> <span class="n">and</span> <span class="o">!</span><span class="p">[</span><span class="no">Image</span><span class="p">](</span><span class="n">src</span><span class="p">)</span></code></pre></figure>
+
