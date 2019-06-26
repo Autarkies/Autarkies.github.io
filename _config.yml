@@ -1,0 +1,11 @@
+# basic options
+title: Autarkies for (D)QBF
+author: Oliver Kullmann
+email: ankitk@ncbs.res.in
+description: Autarkies for SAT are partial assignments for boolean CNF, which either satisfy a clause or leave it untouched.
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
