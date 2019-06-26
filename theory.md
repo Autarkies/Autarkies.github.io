@@ -2,8 +2,21 @@
 title: Theory
 nav: true
 ---
+<div class="page">
+  <h1 class="page-title">Looking for an Autarky?</h1>
+  <!--<span>Sorry, but the page you were trying to view does not exist.</span>-->
+<pre><code>---------------------
+ Autarkies for SAT are partial assignments for boolean CNF, 
+ which either satisfy a clause or leave it untouched.
+--------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 
-Autarkies for SAT are partial assignments for boolean CNF, which either satisfy a clause or leave it untouched.
+</code></pre>
+</div>
 
 ### A- and E-systems
 Consider a DQCNF F and k ≥ 0:
