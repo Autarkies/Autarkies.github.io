@@ -8,7 +8,7 @@ We have implemented the SAT tranlation into [DAut](https://github.com/arey0pushp
 The software allows the user to choose an autarky system for the reduction and different *strictness levels* of the input file besides other parameters like choice of encoding `AMO constraints`. 
  
 ```
-I. DQBF Track QBFEVAL:
+I. DQBF Track QBFEVAL'18:
    With improved SAT-encodings and running standard SAT-solvers, 
    we where able to compute the normalforms quite easily for all 334 instances 
    in the DQBF track of [QBFEVAL'18](http://www.qbflib.org/qbfeval18.php).
