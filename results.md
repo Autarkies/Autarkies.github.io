@@ -32,7 +32,6 @@ II. Planted examples for DQCNF:
                   attachments/1009/hqs_2018-08-30.zip).
 ```
  A. ``A1-satisfible`` 
-    <a href="./images/bloem_ex1.dqdimacs">cv</a>
   1. [planted_A1_50_50_200_40-3_40-4](./files/PlantedA1_DQCNF_50_50_200_40-3_40-4_2.dqdimacs), 0.52s
   2. [planted_A1_50_50_200_200-3_200-4](./files/PlantedA1_DQCNF_50_50_200_200-3_200-4_1.dqdimacs), 0.14s
   3. [Planted_A1_50_50_300_600-3_600-4](./files/PlantedA1_DQCNF_50_50_300_600-3_600-4_1.dqdimacs), 0.37s
