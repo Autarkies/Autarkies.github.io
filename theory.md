@@ -21,10 +21,10 @@ nav: true
 
 ## DQCNF 
 A `DQCNF` is a 4-tuple `(A, E, F, D)`, where
- - `A` is the set of `universal variables`,
- - `E` is the set of `existential variables`, with A &#8745; E = &empty;,
- - `F` is a `clause-set` over A &cup; E (i.e., var(F) &sube; A &cup; E),
-  - `D` is the `dependency-map` with dom(D) = E, mapping v &isin; E  &rarr; D(v) &sube; A, the variables on which v depends.
+ - **A** is the set of `universal variables`,
+ - **E** is the set of `existential variables`, with A &#8745; E = &empty;,
+ - **F** is a `clause-set` over A &cup; E (i.e., var(F) &sube; A &cup; E),
+  - **D** is the `dependency-map` with dom(D) = E, mapping v &isin; E  &rarr; D(v) &sube; A, the variables on which v depends.
 
 ## A- and E-systems
 Consider a DQCNF F and k ≥ 0:

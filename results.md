@@ -3,6 +3,8 @@ title: Results
 nav: true
 ---
 
+# Results
+
 With improved SAT-encodings and running standard SAT-solvers, we where able to compute the normalforms quite easily for all over 334 instances in the DQBF track of [QBFEVAL'18](http://www.qbflib.org/qbfeval18.php)
 .
 

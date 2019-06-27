@@ -3,7 +3,7 @@ title: Translation
 nav: true
 ---
 
-# Translation to SAT:
+# Translation to SAT
 
 ## Finding A1 via compilation:
 
