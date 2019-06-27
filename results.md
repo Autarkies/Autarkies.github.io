@@ -8,19 +8,34 @@ We have implemented the SAT tranlation into [DAut](https://github.com/arey0pushp
 The software allows the user to choose an autarky system for the reduction and different *strictness levels* of the input file besides other parameters like choice of encoding `AMO constraints`. 
  
 ```
-With improved SAT-encodings and running standard SAT-solvers, 
-we where able to compute the normalforms quite easily for all 334 instances 
-in the DQBF track of [QBFEVAL'18](http://www.qbflib.org/qbfeval18.php).
+I. DQBF Track QBFEVAL:
+   With improved SAT-encodings and running standard SAT-solvers, 
+   we where able to compute the normalforms quite easily for all 334 instances 
+   in the DQBF track of [QBFEVAL'18](http://www.qbflib.org/qbfeval18.php).
+ 
+  We found 4 instances that have Autarkies.
 ```
 
-We found 4 instances that have Autarkies:
+A. ``SAT instances``
+  1. [bloem\_eq1.dqdimacs](http://s000.tinyupload.com/download.php?file_id=71895668698156517992&t=7189566869815651799229830), 0.011s
+  2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](http://s000.tinyupload.com/download.php?file_id=49458241545198735227&t=4945824154519873522782923), 0.239s
+  
+  
+B. ``Non-Trivial Autarkies``
+  1. [bloem\_ex1.dqdimacs](http://s000.tinyupload.com/download.php?file_id=00905314666568713391&t=0090531466656871339117368), 0.031s
+  2. [bloem\_ex2.dqdimacs](http://s000.tinyupload.com/download.php?file_id=08550873163228988204&t=0855087316322898820448859), 0.143s
+  
+```
+II. Planted examples for DQCNF:
+    We have tested our code against the state of the art DQBF solver 
+    [HQS] (https://projects.informatik.uni-freiburg.de/
+                  attachments/1009/hqs_2018-08-30.zip).
+```
+ A. ``A1-satisfible`` 
+  1. [planted_A1_50_50_200_40-3_40-4](http://s000.tinyupload.com/download.php?file_id=04235029771407619900&t=0423502977140761990095749), 0.52s
+  2. [planted_A1_50_50_200_200-3_200-4](http://s000.tinyupload.com/download.php?file_id=42785128045752431779&t=4278512804575243177967231), 0.14s
+  3. [Planted_A1_50_50_300_600-3_600-4](http://s000.tinyupload.com/download.php?file_id=89707993035763145943&t=8970799303576314594387557), 0.37s
 
-1. ``SAT instances`` 
-  - bloem\_eq1.dqdimacs, 0.011s
-  - tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs, 0.239s
-  
-  
-2. ``Non-Trivial Autarkies``
-  - bloem\_ex1.dqdimacs, 0.031s
-  - bloem\_ex2.dqdimacs, 0.143s
-  
+ B. ``E1-satisfiable``
+   - to be continued...
+
