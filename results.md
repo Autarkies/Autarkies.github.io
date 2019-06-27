@@ -17,13 +17,13 @@ I. DQBF Track QBFEVAL:
 ```
 
 A. ``SAT instances``
-  1. [bloem\_eq1.dqdimacs](http://s000.tinyupload.com/download.php?file_id=71895668698156517992&t=7189566869815651799229830), 0.011s
-  2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](http://s000.tinyupload.com/download.php?file_id=49458241545198735227&t=4945824154519873522782923), 0.239s
+  1. [bloem\_eq1.dqdimacs](./files/bloem_eq1.dqdimacs), 0.011s
+  2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](./files/tentrup17_ltl2dba_theta_environment_1.dqdimacs), 0.239s
   
   
 B. ``Non-Trivial Autarkies``
-  1. [bloem\_ex1.dqdimacs](http://s000.tinyupload.com/download.php?file_id=00905314666568713391&t=0090531466656871339117368), 0.031s
-  2. [bloem\_ex2.dqdimacs](http://s000.tinyupload.com/download.php?file_id=08550873163228988204&t=0855087316322898820448859), 0.143s
+  1. [bloem\_ex1.dqdimacs](./files/bloem_ex1.dqdimacs), 0.031s
+  2. [bloem\_ex2.dqdimacs](./files/bloem_ex2.dqdimacs), 0.143s
   
 ```
 II. Planted examples for DQCNF:
@@ -32,9 +32,10 @@ II. Planted examples for DQCNF:
                   attachments/1009/hqs_2018-08-30.zip).
 ```
  A. ``A1-satisfible`` 
-  1. [planted_A1_50_50_200_40-3_40-4](http://s000.tinyupload.com/download.php?file_id=04235029771407619900&t=0423502977140761990095749), 0.52s
-  2. [planted_A1_50_50_200_200-3_200-4](http://s000.tinyupload.com/download.php?file_id=42785128045752431779&t=4278512804575243177967231), 0.14s
-  3. [Planted_A1_50_50_300_600-3_600-4](http://s000.tinyupload.com/download.php?file_id=89707993035763145943&t=8970799303576314594387557), 0.37s
+    <a href="./images/bloem_ex1.dqdimacs">cv</a>
+  1. [planted_A1_50_50_200_40-3_40-4](./files/PlantedA1_DQCNF_50_50_200_40-3_40-4_2.dqdimacs), 0.52s
+  2. [planted_A1_50_50_200_200-3_200-4](./files/PlantedA1_DQCNF_50_50_200_200-3_200-4_1.dqdimacs), 0.14s
+  3. [Planted_A1_50_50_300_600-3_600-4](./files/PlantedA1_DQCNF_50_50_300_600-3_600-4_1.dqdimacs), 0.37s
 
  B. ``E1-satisfiable``
    - to be continued...
