@@ -13,17 +13,18 @@ I. DQBF Track QBFEVAL'18:
    we where able to compute the normalforms quite easily for all 334 instances 
    in the DQBF track of [QBFEVAL'18](http://www.qbflib.org/qbfeval18.php).
  
-  We found 4 instances that have Autarkies.
+   There are exactly 4 instances with non-trivial A1-autarkies.
+   Two of them are indeed A1-satisfiable.
 ```
 
-A. ``SAT instances``
-  1. [bloem\_eq1.dqdimacs](./files/bloem_eq1.dqdimacs), 0.011s
-  2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](./files/tentrup17_ltl2dba_theta_environment_1.dqdimacs), 0.239s
+A. ``A1-satisfiable instances``
+  1. [bloem\_eq1.dqdimacs](./files/bloem_eq1.dqdimacs)
+  2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](./files/tentrup17_ltl2dba_theta_environment_1.dqdimacs)
   
   
-B. ``Non-Trivial Autarkies``
-  1. [bloem\_ex1.dqdimacs](./files/bloem_ex1.dqdimacs), 0.031s
-  2. [bloem\_ex2.dqdimacs](./files/bloem_ex2.dqdimacs), 0.143s
+B. ``Non-Trivial A1-Autarkies``
+  1. [bloem\_ex1.dqdimacs](./files/bloem_ex1.dqdimacs)
+  2. [bloem\_ex2.dqdimacs](./files/bloem_ex2.dqdimacs)
   
 ```
 II. Planted examples for DQCNF:
