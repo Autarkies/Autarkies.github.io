@@ -3,9 +3,11 @@ title: Translation
 nav: true
 ---
 
-### Translation of finding A1 via compilation:
+# Translation to SAT:
 
-   1. `Selected (boolean) functions`: restrict to some "interesting” selection **s(v)** ⊆ BF D v , and treat the elements of s(v) as the possible values of v.
+## Finding A1 via compilation:
+
+   1. `Selected (boolean) functions`: restrict to some "interesting” selection **s(v)** ⊆ BF<sup> D<sup> v</sup> </sup>, and treat the elements of s(v) as the possible values of v.
    2. `Admissible partial assignment`: For each C ∈ F , compile all possibilities for admissible partial satisfying assignments for C into some CNF-representation **P(C)**.
 
 {% highlight ruby %}
