@@ -28,6 +28,7 @@ B. ``Non-Trivial A1-Autarkies``
 
 Evaluation: 
 
+>
 1. bloem\_eq1.dqdimacs 
   Input formula: 
     n(F) = 9
