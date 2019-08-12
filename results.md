@@ -18,14 +18,15 @@ I. DQBF Track QBFEVAL'18:
 ```
 
 A. ``A1-satisfiable instances``
-  1. [bloem\_eq1.dqdimacs](./files/bloem_eq1.dqdimacs)
-  2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](./files/tentrup17_ltl2dba_theta_environment_1.dqdimacs)
+  1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs)
+  2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/tentrup17_ltl2dba_theta_environment_1.dqdimacs)
   
   
 B. ``Non-Trivial A1-Autarkies``
-  1. [bloem\_ex1.dqdimacs](./files/bloem_ex1.dqdimacs)
-  2. [bloem\_ex2.dqdimacs](./files/bloem_ex2.dqdimacs)
-  
+  1. [bloem\_ex1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex1.dqdimacs)
+  2. [bloem\_ex2.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex2.dqdimacs)
+
+<!--  
 ```
 II. Planted examples for DQCNF:
     We have tested our code against the state of the art DQBF solver 
@@ -39,4 +40,4 @@ II. Planted examples for DQCNF:
 
  B. ``E1-satisfiable``
    - to be continued...
-
+-->
