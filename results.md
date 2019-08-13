@@ -26,11 +26,12 @@ A. ``A1-satisfiable instances``
     	c(F) = 16     
     	a(F) = 1        
     	e(F) = 8         
-     E1\_Autarky (F): Lean (No reduction)  
-     A1\_Autarky (F): Satisfiable   
-     	Autarky: (2 -> -1, 3 -> true, 4 -> true, 5 -> false, 6 -> false, 7 -> true, 8 -> true, 9 -> true)   
+     E1_Autarky (F): Lean (No reduction)  
+     A1_Autarky (F): Satisfiable   
+     	Autarky: (2 -> -1, 3 -> true, 4 -> true, 5 -> false,   
+                  6 -> false, 7 -> true, 8 -> true, 9 -> true)   
      
-     E1 + A1\_Autarky (F): Satisfiable  
+     E1 + A1_Autarky (F): Satisfiable  
      	Autarky: Same as above   
 ```
   2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/tentrup17_ltl2dba_theta_environment_1.dqdimacs)
@@ -40,11 +41,11 @@ A. ``A1-satisfiable instances``
     	c(F) = 732  
     	a(F) = 3     
     	e(F) = 246     
-    E1\_Autarky (F): Lean (No reduction)  
-    A1\_Autarky (F): Non Trivial Autarky (Reduction but not SAT)  
+    E1_Autarky (F): Lean (No reduction)  
+    A1_Autarky (F): Non Trivial Autarky (Reduction but not SAT)  
     	Remaining evars count: 17  
     	Remaining clause count: 67  
-    E1 + A1\_Autarky (F): Satisfiable   
+    E1 + A1_Autarky (F): Satisfiable   
     	Autarky:  .... BIG ..... Leaving!   
 ```
   
