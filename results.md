@@ -18,6 +18,7 @@ I. DQBF Track QBFEVAL'18:
 ```
 
 A. ``A1-satisfiable instances``
+```
   1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs) 
      Input formula:   
     	n(F) = 9    
@@ -70,7 +71,7 @@ B. ``Non-Trivial A1-Autarkies``
     	Remaining clause count: 99   
      E1 + A1_Autarky (F): Non trivial Autarky   
        Autarky: Same as above  
-   
+   ```
 <!--  
 ```
 II. Planted examples for DQCNF:
