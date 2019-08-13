@@ -25,7 +25,7 @@ title: Results
    autarky system for the reduction and different *strictness levels* of the input file besides 
    other parameters like choice of encoding `AMO constraints`.
 
-  Instance 1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs) 
+  Instance 1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs) ``A1_Autarky Satisfiable`` 
 ```
      Input formula:   
     	n(F) = 9    
@@ -40,7 +40,7 @@ title: Results
      E1 + A1_Autarky (F): Satisfiable  
      	Autarky: Same as above   
 ```
-  Instance 2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/tentrup17_ltl2dba_theta_environment_1.dqdimacs)
+  Instance 2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/tentrup17_ltl2dba_theta_environment_1.dqdimacs)  ``E1 + A1_Autarky Satisfiable``
 ```
      Input formula:  
     	n(F) = 249  
