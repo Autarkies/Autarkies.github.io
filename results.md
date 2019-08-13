@@ -2,23 +2,24 @@
 title: Results
 ---
 
-# Results ``DQBF Track QBFEVAL'18``
+# Results 
+   ``DQBF Track QBFEVAL'18``
    With improved SAT-encodings and running standard SAT-solvers, 
    we where able to compute the normalforms for all 334 instances 
-   in the DQBF track of [QBFEVAL'18](http://www.qbflib.org/qbfeval18.php).
+   in the DQBF track of [QBFEVAL'18](http://www.qbflib.org/qbfeval18.php).  
    All normalforms have been computed within a total time of 9000s. 
    (We remark that finding an autarky is quick, and most of the 
    time is spent on proving unsatisfiability.) 
    
-   There are exactly 4 instances with non-trivial A1-autarkies.
-   330 instances are E1+A1-lean (have no non-trivial E1- or A1-autarky). 
+   We found that there are exactly **4** instances with non-trivial A1-autarkies.
 
+   **330** instances are E1+A1-lean (have no non-trivial E1- or A1-autarky). 
    From the remaining 4 instances, all are E1-lean, one is A1-satisfiable,
    one is E1+A1-satisfiable, and the remaining two instances are not E1+A1-satisfiable, 
    but allow A1-autarkies eliminating in both cases around 80% of variables 
    and clauses (while adding E1 does not change this). 
 
-   We have implemented the SAT tranlation into [DAut](https://github.com/arey0pushpa/dcnf-autarky), 
+   We have implemented the SAT tranlation into [AutarkyFinder](https://github.com/arey0pushpa/dcnf-autarky), 
    that finds the **A1**, **E1**, **A1 + E1** autarkies in the input (D)QBF. 
    The `C++` implementaion is around 1800 lines of code. The software allows the user to choose an 
    autarky system for the reduction and different *strictness levels* of the input file besides 
