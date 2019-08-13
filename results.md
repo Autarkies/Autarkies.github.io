@@ -23,7 +23,10 @@ title: Results
    that finds the **A1**, **E1**, **A1 + E1** autarkies in the input (D)QBF. 
    The `C++` implementaion is around 1800 lines of code. The software allows the user to choose an 
    autarky system for the reduction and different *strictness levels* of the input file besides 
-   other parameters like choice of encoding `AMO constraints`.
+   other parameters like choice of encoding `AMO constraints`. 
+
+   We use n(F) for total number of variables, c(F) for number of clauses, a(F) for 
+   total number of universal variables and e(F) for total number of existential variables in the formula F.
 
   Instance 1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs) ``A1_Autarky Satisfiable`` 
 ```
