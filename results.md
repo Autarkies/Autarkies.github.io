@@ -79,7 +79,6 @@ B. ``Non-Trivial A1-Autarkies``
        Autarky: Same as above  
 ```
 <!--  
-```
 II. Planted examples for DQCNF:
     We have tested our code against the state of the art DQBF solver 
     [HQS] (https://projects.informatik.uni-freiburg.de/
