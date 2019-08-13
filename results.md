@@ -18,8 +18,9 @@ I. DQBF Track QBFEVAL'18:
 ```
 
 A. ``A1-satisfiable instances``
-```
+
   1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs) 
+```
      Input formula:   
     	n(F) = 9    
     	c(F) = 16     
@@ -31,8 +32,9 @@ A. ``A1-satisfiable instances``
      
      E1 + A1\_Autarky (F): Satisfiable  
      	Autarky: Same as above   
-
+```
   2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/tentrup17_ltl2dba_theta_environment_1.dqdimacs)
+```
      Input formula:  
     	n(F) = 249  
     	c(F) = 732  
@@ -44,9 +46,11 @@ A. ``A1-satisfiable instances``
     	Remaining clause count: 67  
     E1 + A1\_Autarky (F): Satisfiable   
     	Autarky:  .... BIG ..... Leaving!   
+```
   
 B. ``Non-Trivial A1-Autarkies``
   1. [bloem\_ex1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex1.dqdimacs)  
+```
      Input formula:  
     	n(F) = 23  
     	c(F) = 52  
@@ -58,8 +62,10 @@ B. ``Non-Trivial A1-Autarkies``
     	Remaining clause count: 18  
      E1 + A1_Autarky (F): Non trivial Autarky   
       	Autarky: Same as above  
+```
   
   2. [bloem\_ex2.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex2.dqdimacs)
+```     
      Input formula:  
    	 n(F) = 60  
    	 c(F) = 139   
@@ -71,7 +77,7 @@ B. ``Non-Trivial A1-Autarkies``
     	Remaining clause count: 99   
      E1 + A1_Autarky (F): Non trivial Autarky   
        Autarky: Same as above  
-   ```
+```
 <!--  
 ```
 II. Planted examples for DQCNF:
