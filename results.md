@@ -3,11 +3,8 @@ title: Results
 ---
 
 # Results
-We have implemented the SAT tranlation into [DAut](https://github.com/arey0pushpa/dcnf-autarky), that finds the **A1**, **E1**, **A1 + E1** autarkies in the input (D)QBF. The `C++` implementaion is around 1800 lines of code. 
-The software allows the user to choose an autarky system for the reduction and different *strictness levels* of the input file besides other parameters like choice of encoding `AMO constraints`. 
  
-```
-I. DQBF Track QBFEVAL'18:
+``DQBF Track QBFEVAL'18``:
    With improved SAT-encodings and running standard SAT-solvers, 
    we where able to compute the normalforms for all 334 instances 
    in the DQBF track of [QBFEVAL'18](http://www.qbflib.org/qbfeval18.php).
@@ -23,12 +20,13 @@ I. DQBF Track QBFEVAL'18:
    but allow A1-autarkies eliminating in both cases around 80% of variables 
    and clauses (while adding E1 does not change this). 
 
-   Two of them are indeed A1-satisfiable.
-```
+   We have implemented the SAT tranlation into [DAut](https://github.com/arey0pushpa/dcnf-autarky), 
+   that finds the **A1**, **E1**, **A1 + E1** autarkies in the input (D)QBF. 
+   The `C++` implementaion is around 1800 lines of code. The software allows the user to choose an 
+   autarky system for the reduction and different *strictness levels* of the input file besides 
+   other parameters like choice of encoding `AMO constraints`.
 
-A. ``A1-satisfiable instances``
-
-  1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs) 
+  Instance 1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs) 
 ```
      Input formula:   
     	n(F) = 9    
@@ -43,7 +41,7 @@ A. ``A1-satisfiable instances``
      E1 + A1_Autarky (F): Satisfiable  
      	Autarky: Same as above   
 ```
-  2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/tentrup17_ltl2dba_theta_environment_1.dqdimacs)
+  Instance 2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/tentrup17_ltl2dba_theta_environment_1.dqdimacs)
 ```
      Input formula:  
     	n(F) = 249  
@@ -58,8 +56,7 @@ A. ``A1-satisfiable instances``
     	Autarky:  .... BIG ..... Leaving!   
 ```
   
-B. ``Non-Trivial A1-Autarkies``
-  1. [bloem\_ex1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex1.dqdimacs)  
+  Instance 3. [bloem\_ex1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex1.dqdimacs) ``Non-Trivial A1-Autarkies``
 ```
      Input formula:  
     	n(F) = 23  
@@ -74,7 +71,7 @@ B. ``Non-Trivial A1-Autarkies``
       	Autarky: Same as above  
 ```
   
-  2. [bloem\_ex2.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex2.dqdimacs)
+  Instance 4. [bloem\_ex2.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex2.dqdimacs) ``Non-Trivial A1-Autarkies``
 ```     
      Input formula:  
    	 n(F) = 60  
