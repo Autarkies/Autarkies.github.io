@@ -78,17 +78,3 @@ B. ``Non-Trivial A1-Autarkies``
      E1 + A1_Autarky (F): Non trivial Autarky   
        Autarky: Same as above  
 ```
-<!--  
-II. Planted examples for DQCNF:
-    We have tested our code against the state of the art DQBF solver 
-    [HQS] (https://projects.informatik.uni-freiburg.de/
-                  attachments/1009/hqs_2018-08-30.zip).
-```
- A. ``A1-satisfible`` 
-  1. [planted_A1_50_50_200_40-3_40-4](./files/PlantedA1_DQCNF_50_50_200_40-3_40-4_2.dqdimacs), 0.52s
-  2. [planted_A1_50_50_200_200-3_200-4](./files/PlantedA1_DQCNF_50_50_200_200-3_200-4_1.dqdimacs), 0.14s
-  3. [Planted_A1_50_50_300_600-3_600-4](./files/PlantedA1_DQCNF_50_50_300_600-3_600-4_1.dqdimacs), 0.37s
-
- B. ``E1-satisfiable``
-   - to be continued...
--->
