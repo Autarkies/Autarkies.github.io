@@ -29,12 +29,6 @@ nav: true
    We use n(F) for total number of variables, c(F) for number of clauses, a(F) for 
    total number of universal variables and e(F) for total number of existential variables in the formula F.
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
   Instance 1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs) ``A1_Autarky Satisfiable`` 
 ```js
  - Input formula:   
