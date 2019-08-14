@@ -23,6 +23,11 @@ url: https://autarkies.github.io
 # your repository name: /repository
 baseurl: /
 
+
+# Conversion markdown: redcarpet 
+highlighter: pygments 
+#redcarpet: extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
 # defaults (to simplify front matter)
 defaults:
   - scope:
@@ -34,3 +39,4 @@ defaults:
 markdown: kramdown
 
 theme: jekyll-theme-minimal
+

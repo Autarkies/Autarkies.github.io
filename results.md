@@ -29,62 +29,68 @@ nav: true
    We use n(F) for total number of variables, c(F) for number of clauses, a(F) for 
    total number of universal variables and e(F) for total number of existential variables in the formula F.
 
-  Instance 1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs) ``A1_Autarky Satisfiable`` 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
-     Input formula:   
-    	n(F) = 9    
-    	c(F) = 16     
-    	a(F) = 1        
-    	e(F) = 8         
-     E1_Autarky (F): Lean (No reduction)  
-     A1_Autarky (F): Satisfiable   
-     	Autarky: (2 -> -1, 3 -> true, 4 -> true, 5 -> false,   
-                  6 -> false, 7 -> true, 8 -> true, 9 -> true)   
-     
-     E1 + A1_Autarky (F): Satisfiable  
-     	Autarky: Same as above   
+
+  Instance 1. [bloem\_eq1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_eq1.dqdimacs) ``A1_Autarky Satisfiable`` 
+```js
+ - Input formula:   
+   n(F) = 9    
+   c(F) = 16     
+   a(F) = 1        
+   e(F) = 8         
+ - E1_Autarky (F): Lean (No reduction)  
+ - A1_Autarky (F): Satisfiable   
+   Autarky: (2 -> -1, 3 -> true, 4 -> true, 5 -> false,   
+              6 -> false, 7 -> true, 8 -> true, 9 -> true)    
+ 
+ - E1 + A1_Autarky (F): Satisfiable  
+   Autarky: Same as above   
 ```
   Instance 2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/tentrup17_ltl2dba_theta_environment_1.dqdimacs)  ``E1 + A1_Autarky Satisfiable``
-```
-     Input formula:  
-    	n(F) = 249  
-    	c(F) = 732  
-    	a(F) = 3     
-    	e(F) = 246     
-    E1_Autarky (F): Lean (No reduction)  
-    A1_Autarky (F): Non Trivial Autarky (Reduction but not SAT)  
-    	Remaining evars count: 17  
-    	Remaining clause count: 67  
-    E1 + A1_Autarky (F): Satisfiable   
-    	Autarky:  .... BIG ..... Leaving!   
+```ruby
+  - Input formula:  
+    n(F) = 249  
+    c(F) = 732  
+    a(F) = 3     
+    e(F) = 246     
+  - E1_Autarky (F): Lean (No reduction)  
+  - A1_Autarky (F): Non Trivial Autarky (Reduction but not SAT)  
+    Remaining evars count: 17  
+    Remaining clause count: 67  
+  - E1 + A1_Autarky (F): Satisfiable   
+    Autarky:  .... BIG ..... Leaving!   
 ```
   
   Instance 3. [bloem\_ex1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex1.dqdimacs) ``Non-Trivial A1-Autarkies``
 ```
-     Input formula:  
-    	n(F) = 23  
-    	c(F) = 52  
-    	a(F) = 3          
-    	e(F) = 20         
-     E1_Autarky (F): Lean (No reduction)  
-     A1_Autarky (F): Non Trivial Autarky (Reduction but not SAT)  
-    	Remaining evars count: 6  
-    	Remaining clause count: 18  
-     E1 + A1_Autarky (F): Non trivial Autarky   
-      	Autarky: Same as above  
+  - Input formula:  
+    n(F) = 23  
+    c(F) = 52  
+    a(F) = 3          
+    e(F) = 20         
+  - E1_Autarky (F): Lean (No reduction)  
+  - A1_Autarky (F): Non Trivial Autarky (Reduction but not SAT)  
+    Remaining evars count: 6  
+    Remaining clause count: 18  
+  - E1 + A1_Autarky (F): Non trivial Autarky   
+      Autarky: Same as above  
 ```
   
   Instance 4. [bloem\_ex2.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex2.dqdimacs) ``Non-Trivial A1-Autarkies``
 ```     
-     Input formula:  
-   	 n(F) = 60  
-   	 c(F) = 139   
-    	 a(F) = 10         
-    	 e(F) = 50          
-     E1_Autarky (F): Lean (No reduction)  
-     A1_Autarky (F): Non Trivial Autarky (Reduction but not SAT)  
-    	Remaining evars count: 33  
-    	Remaining clause count: 99   
-     E1 + A1_Autarky (F): Non trivial Autarky   
-       Autarky: Same as above  
+ - Input formula:  
+   n(F) = 60  
+   c(F) = 139   
+   a(F) = 10         
+   e(F) = 50          
+ - E1_Autarky (F): Lean (No reduction)  
+ - A1_Autarky (F): Non Trivial Autarky (Reduction but not SAT)  
+   Remaining evars count: 33  
+   Remaining clause count: 99   
+ - E1 + A1_Autarky (F): Non trivial Autarky   
+   Autarky: Same as above  
 ```
