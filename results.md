@@ -14,7 +14,6 @@ nav: true
    time is spent on proving unsatisfiability.) 
    
    We found that there are exactly **4** instances with non-trivial A1-autarkies.
-
    **330** instances are E1+A1-lean (have no non-trivial E1- or A1-autarky). 
    From the remaining 4 instances, all are E1-lean, one is A1-satisfiable,
    one is E1+A1-satisfiable, and the remaining two instances are not E1+A1-satisfiable, 
