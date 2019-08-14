@@ -8,7 +8,7 @@ nav: true
    ``DQBF Track QBFEVAL'18``
    With improved SAT-encodings and running standard SAT-solvers, 
    we where able to compute the normalforms for all 334 instances 
-   in the DQBF track of [QBFEVAL'18](http://www.qbflib.org/qbfeval18.php).  
+   in the DQBF track of [QBFEVAL'18](http://www.qbflib.org/qbfeval18.php).
    All normalforms have been computed within a total time of 9000s. 
    (We remark that finding an autarky is quick, and most of the 
    time is spent on proving unsatisfiability.) 
