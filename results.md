@@ -48,10 +48,10 @@ Instance | E1-Aut | A1-Aut | E1+A1-Aut
    e(F) = 8         
  - E1_Autarky (F): Lean (No reduction)  
  - A1_Autarky (F): Satisfiable   
-   Autarky: (2 -> -1, 3 -> true, 4 -> true, 5 -> false,   
-              6 -> false, 7 -> true, 8 -> true, 9 -> true)
+     Autarky: (2 -> -1, 3 -> true, 4 -> true, 5 -> false,   
+                6 -> false, 7 -> true, 8 -> true, 9 -> true)
  - E1 + A1_Autarky (F): Satisfiable  
-   Autarky: Same as above   
+     Autarky: Same as above   
 ```
   Instance 2. [tentrup17\_ltl2dba\_theta\_environment\_1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/tentrup17_ltl2dba_theta_environment_1.dqdimacs)  ``E1 + A1_Autarky Satisfiable``
 ```ruby
@@ -62,10 +62,10 @@ Instance | E1-Aut | A1-Aut | E1+A1-Aut
     e(F) = 246     
   - E1_Autarky (F): Lean (No reduction)  
   - A1_Autarky (F): Non Trivial Autarky (Reduction but not SAT)  
-    Remaining evars count: 17  
-    Remaining clause count: 67  
+      Remaining evars count: 17  
+      Remaining clause count: 67  
   - E1 + A1_Autarky (F): Satisfiable   
-    Autarky: Link   
+      Autarky: Link   
 ```
   
   Instance 3. [bloem\_ex1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex1.dqdimacs) ``Non-Trivial A1-Autarkies``
@@ -77,8 +77,8 @@ Instance | E1-Aut | A1-Aut | E1+A1-Aut
     e(F) = 20         
   - E1_Autarky (F): Lean (No reduction)  
   - A1_Autarky (F): Non Trivial Autarky (Reduction but not SAT)  
-    Remaining evars count: 6  
-    Remaining clause count: 18  
+      Remaining evars count: 6  
+      Remaining clause count: 18  
   - E1 + A1_Autarky (F): Non trivial Autarky   
       Autarky: Same as above  
 ```
