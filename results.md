@@ -66,7 +66,7 @@ Instance | E1-Aut | A1-Aut | E1+A1-Aut
     Remaining evars count: 17  
     Remaining clause count: 67  
   - E1 + A1_Autarky (F): Satisfiable   
-    Autarky: Link...   
+    Autarky: Link   
 ```
   
   Instance 3. [bloem\_ex1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex1.dqdimacs) ``Non-Trivial A1-Autarkies``
