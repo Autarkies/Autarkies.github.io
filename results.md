@@ -49,8 +49,7 @@ Instance | E1-Aut | A1-Aut | E1+A1-Aut
  - E1_Autarky (F): Lean (No reduction)  
  - A1_Autarky (F): Satisfiable   
    Autarky: (2 -> -1, 3 -> true, 4 -> true, 5 -> false,   
-              6 -> false, 7 -> true, 8 -> true, 9 -> true)    
- 
+              6 -> false, 7 -> true, 8 -> true, 9 -> true)
  - E1 + A1_Autarky (F): Satisfiable  
    Autarky: Same as above   
 ```
