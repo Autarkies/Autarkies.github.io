@@ -68,7 +68,7 @@ Instance | E1-Aut | A1-Aut | E1+A1-Aut
       Autarky: Link   
 ```
   
-  Instance 3. [bloem\_ex1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex1.dqdimacs) ``Non-Trivial A1-Autarkies``
+  Instance 3. [bloem\_ex1.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex1.dqdimacs) ``Non-Trivial A1_Autarky``
 ```
   - Input formula:  
     n(F) = 23  
@@ -83,7 +83,7 @@ Instance | E1-Aut | A1-Aut | E1+A1-Aut
       Autarky: Same as above  
 ```
   
-  Instance 4. [bloem\_ex2.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex2.dqdimacs) ``Non-Trivial A1-Autarkies``
+  Instance 4. [bloem\_ex2.dqdimacs](https://github.com/arey0pushpa/dcnf-autarky/blob/master/dcnf/examples/bloem_ex2.dqdimacs) ``Non-Trivial A1_Autarky``
 ```     
  - Input formula:  
    n(F) = 60  
