@@ -6,13 +6,13 @@
 # - use environment variable on build command to include analytics: JEKYLL_ENV=production jekyll build
 
 # site settings
-title: Autarkies for (D)QBF
+#title: Autarkies for (D)QBF
 description: "Find Autarkies in the (D)QBF"
 keywords: "github, github-pages, websites, static gen, hosting, html, workshop, gh-pages"
 
 # author settings for cc-by
-author: O Kullmann
-pub_year: 2019
+#author: O Kullmann
+#pub_year: 2019
 #github_username: OKullmann 
 
 # add the full url for the github repository
